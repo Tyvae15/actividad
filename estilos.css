@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+main
+{
+    max-width:none;
+    margin: 0px;
+}
+
+header
+{
+    margin:0px
+}
+section img {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: "Roboto", sans-serif;
+}
+
+.banner-superior {
+    background-color: #FFD700;
+    text-align: center;
+    padding: 5px;
+}
+
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+    background-color:#efefef;
+    border-bottom: 2px solid #ddd;
+}
+
+.categoria {
+    display: flex;
+    height: 40px;
+    margin-left: 5px;
+}
+
+
+.logo img {
+    height: 50px;
+}
+
+.busqueda input {
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    width: 500px;
+}
+
+.iconos img {
+    height: 50px;
+    margin-left: 5px;
+}
+
+/* Menú gris */
+.menu-gris {
+    background-color:#efefef;
+
+}
+
+
+.menu-gris ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-transform: uppercase;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #1d1d1f;
+    font-weight: 700px;
+    margin: 0px;
+    font-size: 12px;
+}
+
+.menu-gris ul li {
+    margin-right: 50px;
+}
+
+.menu-gris ul li a {
+    text-decoration: none;
+    color:#6d6d81;
+}
+
+/* Menú verde */
+.menu-verde {
+    background-color:#00a160;
+}
+
+.menu-verde ul {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    list-style: none;
+    color: white;
+    margin: 0px;
+    font-size: 12px;
+}
+
+.menu-verde ul li {
+    margin: 0 15px;
+}
+
+.menu-verde ul li a {
+    text-decoration: none;
+    color: #6d6d81;
+}
+
+.seccionBannerso
+{
+    background-image: url(img/Banner+web+1.webp);
+    height: 350px;
+}
+
+/* Zona del banner */
+.zona-banner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Mes del bebé */
+
+.mes-bebe {
+    background-color: #E0F7FA;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 1200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mes-bebe header h2 {
+    text-align: center;
+    color: #00796B;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.mes-bebe header h2 span {
+    background-color: #BBDEFB;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.contenedor-productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.producto {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.333% - 30px);
+    text-align: center;
+}
+
+.producto img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
